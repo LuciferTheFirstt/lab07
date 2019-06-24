@@ -1,5 +1,7 @@
 ## Laboratory work IV
 
+[![Build Status](https://travis-ci.org/LuciferTheFirstt/lab04.svg?branch=master)](https://travis-ci.org/LuciferTheFirstt/lab04)
+
 Данная лабораторная работа посвещена изучению систем непрерывной интеграции на примере сервиса **Travis CI**
 
 ```ShellSession
