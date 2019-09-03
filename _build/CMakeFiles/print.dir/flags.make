@@ -6,5 +6,9 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
+<<<<<<< HEAD
 CXX_INCLUDES = -I/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/include 
+=======
+CXX_INCLUDES = -I/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/include 
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest
+=======
+# Install script for directory: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +43,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock/cmake_install.cmake")
+=======
+  include("/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/cmake_install.cmake")
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 
 endif()
 

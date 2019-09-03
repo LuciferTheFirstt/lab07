@@ -546,6 +546,7 @@ cxxabi.h
 acxx_demangle.h
 -
 
+<<<<<<< HEAD
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googlemock/src/gmock-all.cc
 gmock/gmock.h
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googlemock/src/gmock/gmock.h
@@ -559,4 +560,19 @@ src/gmock-spec-builders.cc
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googlemock/src/src/gmock-spec-builders.cc
 src/gmock.cc
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googlemock/src/src/gmock.cc
+=======
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/gmock-all.cc
+gmock/gmock.h
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/gmock/gmock.h
+src/gmock-cardinalities.cc
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/src/gmock-cardinalities.cc
+src/gmock-internal-utils.cc
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/src/gmock-internal-utils.cc
+src/gmock-matchers.cc
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/src/gmock-matchers.cc
+src/gmock-spec-builders.cc
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/src/gmock-spec-builders.cc
+src/gmock.cc
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/src/gmock.cc
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 

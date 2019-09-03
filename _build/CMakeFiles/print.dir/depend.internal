@@ -3,4 +3,8 @@
 
 CMakeFiles/print.dir/sources/print.cpp.o
  ../include/print.hpp
+<<<<<<< HEAD
  /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/sources/print.cpp
+=======
+ /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/sources/print.cpp
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd

@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build
+=======
+CMAKE_SOURCE_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +144,24 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock/CMakeFiles/progress.marks
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 0
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/CMakeFiles/progress.marks
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 0
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/clean
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/clean
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +171,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/preinstall
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/preinstall
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/preinstall
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/preinstall
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : depend
 
 # Convenience name for target.
 third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/rule:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/rule
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/rule
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -179,12 +212,20 @@ gmock_main: third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # fast build rule for target.
 gmock_main/fast:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : gmock_main/fast
 
 # Convenience name for target.
 third-party/gtest/googlemock/CMakeFiles/gmock.dir/rule:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/CMakeFiles/gmock.dir/rule
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/CMakeFiles/gmock.dir/rule
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : third-party/gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -194,7 +235,11 @@ gmock: third-party/gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # fast build rule for target.
 gmock/fast:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock.dir/build
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock.dir/build
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : gmock/fast
 
 src/gmock-all.o: src/gmock-all.cc.o
@@ -203,7 +248,11 @@ src/gmock-all.o: src/gmock-all.cc.o
 
 # target to build an object file
 src/gmock-all.cc.o:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : src/gmock-all.cc.o
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -212,7 +261,11 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -221,7 +274,11 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.o: src/gmock_main.cc.o
@@ -230,7 +287,11 @@ src/gmock_main.o: src/gmock_main.cc.o
 
 # target to build an object file
 src/gmock_main.cc.o:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : src/gmock_main.cc.o
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -239,7 +300,11 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -248,7 +313,11 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -283,6 +352,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : cmake_check_build_system
 

@@ -472,6 +472,7 @@ cxxabi.h
 acxx_demangle.h
 -
 
+<<<<<<< HEAD
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googlemock/src/gmock_main.cc
 iostream
 -
@@ -479,6 +480,15 @@ gmock/gmock.h
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googlemock/src/gmock/gmock.h
 gtest/gtest.h
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googlemock/src/gtest/gtest.h
+=======
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/gmock_main.cc
+iostream
+-
+gmock/gmock.h
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/gmock/gmock.h
+gtest/gtest.h
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/gtest/gtest.h
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 tchar.h
 -
 

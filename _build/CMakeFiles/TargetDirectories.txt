@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles/install/strip.dir
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles/install.dir
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles/check.dir
@@ -32,3 +33,39 @@
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/list_install_components.dir
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/rebuild_cache.dir
+=======
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/install/strip.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/install.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/check.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/print.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/install/local.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/test.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/list_install_components.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/edit_cache.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/rebuild_cache.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/CMakeFiles/install/strip.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/CMakeFiles/edit_cache.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/CMakeFiles/list_install_components.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/CMakeFiles/test.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/CMakeFiles/install/local.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/CMakeFiles/rebuild_cache.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/CMakeFiles/install.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/CMakeFiles/install/strip.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/CMakeFiles/install.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/CMakeFiles/install/local.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/CMakeFiles/gmock_main.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/CMakeFiles/test.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/CMakeFiles/list_install_components.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/CMakeFiles/gmock.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/CMakeFiles/rebuild_cache.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/CMakeFiles/edit_cache.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/install/strip.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/install.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/edit_cache.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/install/local.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/test.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/list_install_components.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/gtest/CMakeFiles/rebuild_cache.dir
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd

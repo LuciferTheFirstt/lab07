@@ -1,4 +1,5 @@
 Determining if the pthread_create exist failed with the following output:
+<<<<<<< HEAD
 Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make" "cmTC_2446d/fast"
@@ -19,6 +20,28 @@ Makefile:126: recipe for target 'cmTC_2446d/fast' failed
 make: *** [cmTC_2446d/fast] Error 2
 
 File /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+=======
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_010df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_010df.dir/build.make CMakeFiles/cmTC_010df.dir/build
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_010df.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_010df.dir/CheckSymbolExists.c.o   -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_010df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_010df.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_010df.dir/CheckSymbolExists.c.o  -o cmTC_010df 
+CMakeFiles/cmTC_010df.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_010df.dir/build.make:97: recipe for target 'cmTC_010df' failed
+make[1]: *** [cmTC_010df] Error 1
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_010df/fast' failed
+make: *** [cmTC_010df/fast] Error 2
+
+File /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 /* */
 #include <pthread.h>
 

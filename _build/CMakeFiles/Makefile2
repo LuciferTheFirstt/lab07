@@ -54,10 +54,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build
+=======
+CMAKE_SOURCE_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 
 #=============================================================================
 # Target rules for target CMakeFiles/check.dir
@@ -68,7 +75,11 @@ CMakeFiles/check.dir/all: third-party/gtest/googlemock/gtest/CMakeFiles/gtest_ma
 CMakeFiles/check.dir/all: third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles/check.dir/build.make CMakeFiles/check.dir/depend
 	$(MAKE) -f CMakeFiles/check.dir/build.make CMakeFiles/check.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles --progress-num=1,2 "Built target check"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles --progress-num=1,2 "Built target check"
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : CMakeFiles/check.dir/all
 
 # Include target in all.
@@ -78,9 +89,15 @@ all: CMakeFiles/check.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/check.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/check.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/check.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 0
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : CMakeFiles/check.dir/rule
 
 # Convenience name for target.
@@ -105,7 +122,11 @@ clean: CMakeFiles/check.dir/clean
 CMakeFiles/print.dir/all:
 	$(MAKE) -f CMakeFiles/print.dir/build.make CMakeFiles/print.dir/depend
 	$(MAKE) -f CMakeFiles/print.dir/build.make CMakeFiles/print.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles --progress-num=11,12 "Built target print"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles --progress-num=11,12 "Built target print"
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : CMakeFiles/print.dir/all
 
 # Include target in all.
@@ -115,9 +136,15 @@ all: CMakeFiles/print.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/print.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/print.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/print.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 0
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : CMakeFiles/print.dir/rule
 
 # Convenience name for target.
@@ -183,7 +210,11 @@ third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/all: third-party/gtest/go
 third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/all: third-party/gtest/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Include target in all.
@@ -193,9 +224,15 @@ all: third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 0
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -220,7 +257,11 @@ clean: third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/clean
 third-party/gtest/googlemock/CMakeFiles/gmock.dir/all: third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make third-party/gtest/googlemock/CMakeFiles/gmock.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles --progress-num=3,4 "Built target gmock"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles --progress-num=3,4 "Built target gmock"
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : third-party/gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Include target in all.
@@ -230,9 +271,15 @@ all: third-party/gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 third-party/gtest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/CMakeFiles/gmock.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/CMakeFiles/gmock.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 0
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : third-party/gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -277,7 +324,11 @@ third-party/gtest/googlemock/gtest/preinstall:
 third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all: third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -287,9 +338,15 @@ all: third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 0
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -314,7 +371,11 @@ clean: third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles --progress-num=7,8 "Built target gtest"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles --progress-num=7,8 "Built target gtest"
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -324,9 +385,15 @@ all: third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 0
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.

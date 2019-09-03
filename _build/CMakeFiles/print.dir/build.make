@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build
+=======
+CMAKE_SOURCE_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 
 # Include any dependencies generated for this target.
 include CMakeFiles/print.dir/depend.make
@@ -59,6 +66,7 @@ include CMakeFiles/print.dir/flags.make
 
 CMakeFiles/print.dir/sources/print.cpp.o: CMakeFiles/print.dir/flags.make
 CMakeFiles/print.dir/sources/print.cpp.o: ../sources/print.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/print.dir/sources/print.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/print.dir/sources/print.cpp.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/sources/print.cpp
 
@@ -69,6 +77,18 @@ CMakeFiles/print.dir/sources/print.cpp.i: cmake_force
 CMakeFiles/print.dir/sources/print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/print.dir/sources/print.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/sources/print.cpp -o CMakeFiles/print.dir/sources/print.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/print.dir/sources/print.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/print.dir/sources/print.cpp.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/sources/print.cpp
+
+CMakeFiles/print.dir/sources/print.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/print.dir/sources/print.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/sources/print.cpp > CMakeFiles/print.dir/sources/print.cpp.i
+
+CMakeFiles/print.dir/sources/print.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/print.dir/sources/print.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/sources/print.cpp -o CMakeFiles/print.dir/sources/print.cpp.s
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 
 CMakeFiles/print.dir/sources/print.cpp.o.requires:
 
@@ -91,7 +111,11 @@ print_EXTERNAL_OBJECTS =
 libprint.a: CMakeFiles/print.dir/sources/print.cpp.o
 libprint.a: CMakeFiles/print.dir/build.make
 libprint.a: CMakeFiles/print.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libprint.a"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libprint.a"
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 	$(CMAKE_COMMAND) -P CMakeFiles/print.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/print.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +133,10 @@ CMakeFiles/print.dir/clean:
 .PHONY : CMakeFiles/print.dir/clean
 
 CMakeFiles/print.dir/depend:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles/print.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles/print.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : CMakeFiles/print.dir/depend
 

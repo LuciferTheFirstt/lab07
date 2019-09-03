@@ -41,4 +41,8 @@ third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
  ../third-party/gtest/googletest/include/gtest/internal/gtest-string.h
  ../third-party/gtest/googletest/include/gtest/internal/gtest-tuple.h
  ../third-party/gtest/googletest/include/gtest/internal/gtest-type-util.h
+<<<<<<< HEAD
  /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googlemock/src/gmock_main.cc
+=======
+ /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/gmock_main.cc
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd

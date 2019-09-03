@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build
+=======
+CMAKE_SOURCE_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 
 # Include any dependencies generated for this target.
 include third-party/gtest/googlemock/CMakeFiles/gmock.dir/depend.make
@@ -59,6 +66,7 @@ include third-party/gtest/googlemock/CMakeFiles/gmock.dir/flags.make
 
 third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: third-party/gtest/googlemock/CMakeFiles/gmock.dir/flags.make
 third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: ../third-party/gtest/googlemock/src/gmock-all.cc
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googlemock/src/gmock-all.cc
 
@@ -69,6 +77,18 @@ third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_forc
 third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/gmock-all.cc
+
+third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+
+third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 
 third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.requires:
 
@@ -91,9 +111,15 @@ gmock_EXTERNAL_OBJECTS =
 third-party/gtest/googlemock/libgmock.a: third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 third-party/gtest/googlemock/libgmock.a: third-party/gtest/googlemock/CMakeFiles/gmock.dir/build.make
 third-party/gtest/googlemock/libgmock.a: third-party/gtest/googlemock/CMakeFiles/gmock.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgmock.a"
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgmock.a"
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 
 # Rule to build all files generated by this target.
 third-party/gtest/googlemock/CMakeFiles/gmock.dir/build: third-party/gtest/googlemock/libgmock.a
@@ -105,10 +131,18 @@ third-party/gtest/googlemock/CMakeFiles/gmock.dir/requires: third-party/gtest/go
 .PHONY : third-party/gtest/googlemock/CMakeFiles/gmock.dir/requires
 
 third-party/gtest/googlemock/CMakeFiles/gmock.dir/clean:
+<<<<<<< HEAD
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
 .PHONY : third-party/gtest/googlemock/CMakeFiles/gmock.dir/clean
 
 third-party/gtest/googlemock/CMakeFiles/gmock.dir/depend:
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googlemock /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
+.PHONY : third-party/gtest/googlemock/CMakeFiles/gmock.dir/clean
+
+third-party/gtest/googlemock/CMakeFiles/gmock.dir/depend:
+	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googlemock /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : third-party/gtest/googlemock/CMakeFiles/gmock.dir/depend
 

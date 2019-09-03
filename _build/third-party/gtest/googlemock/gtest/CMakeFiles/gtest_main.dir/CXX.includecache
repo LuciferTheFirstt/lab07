@@ -286,9 +286,17 @@ cxxabi.h
 acxx_demangle.h
 -
 
+<<<<<<< HEAD
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googletest/src/gtest_main.cc
 stdio.h
 -
 gtest/gtest.h
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googletest/src/gtest/gtest.h
+=======
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googletest/src/gtest_main.cc
+stdio.h
+-
+gtest/gtest.h
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googletest/src/gtest/gtest.h
+>>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 
