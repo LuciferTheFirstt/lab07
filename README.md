@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Laboratory work IV
 
 [![Build Status](https://travis-ci.org/LuciferTheFirstt/lab06.svg?branch=master)](https://travis-ci.org/LuciferTheFirstt/lab06)
@@ -15,10 +16,19 @@ $ open https://travis-ci.org
 ```ShellSession
 $ open https://cmake.org/Wiki/CMake:CPackPackageGenerators
 >>>>>>> d4c78adec6085237eb4567f46026f242de00588c
+=======
+## Laboratory work VII
+
+Данная лабораторная работа посвещена изучению систем управления пакетами на примере **Hunter**
+
+```ShellSession
+$ open https://github.com/ruslo/hunter
+>>>>>>> 71db6bd3612b7539f739247751f070837994e362
 ```
 
 ## Tasks
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [ ] 1. Авторизоваться на сервисе **Travis CI** с использованием **GitHub** аккаунта
 - [ ] 2. Создать публичный репозиторий с названием **lab06** на сервисе **GitHub**
@@ -34,11 +44,18 @@ $ open https://cmake.org/Wiki/CMake:CPackPackageGenerators
 - [ ] 3. Ознакомиться со ссылками учебного материала
 - [ ] 4. Составить отчет и отправить ссылку личным сообщением в **Slack**
 >>>>>>> d4c78adec6085237eb4567f46026f242de00588c
+=======
+- [ ] 1. Создать публичный репозиторий с названием **lab07** на сервисе **GitHub**
+- [ ] 2. Выполнить инструкцию учебного материала
+- [ ] 3. Ознакомиться со ссылками учебного материала
+- [ ] 4. Составить отчет и отправить ссылку личным сообщением в **Slack**
+>>>>>>> 71db6bd3612b7539f739247751f070837994e362
 
 ## Tutorial
 
 ```ShellSession
 $ export GITHUB_USERNAME=<имя_пользователя>
+<<<<<<< HEAD
 <<<<<<< HEAD
 $ export GITHUB_TOKEN=<полученный_токен>
 =======
@@ -46,6 +63,8 @@ $ export GITHUB_EMAIL=<адрес_почтового_ящика>
 $ alias edit=<nano|vi|vim|subl>
 $ alias gsed=sed # for *-nix system
 >>>>>>> d4c78adec6085237eb4567f46026f242de00588c
+=======
+>>>>>>> 71db6bd3612b7539f739247751f070837994e362
 ```
 
 ```ShellSession
@@ -55,6 +74,7 @@ $ source scripts/activate
 ```
 
 ```ShellSession
+<<<<<<< HEAD
 <<<<<<< HEAD
 $ \curl -sSL https://get.rvm.io | bash -s -- --ignore-dotfiles
 $ echo "source $HOME/.rvm/scripts/rvm" >> scripts/activate
@@ -222,10 +242,68 @@ EOF
 $ cat >> CMakeLists.txt <<EOF
 
 include(CPackConfig.cmake)
+=======
+$ git clone https://github.com/${GITHUB_USERNAME}/lab06 projects/lab07
+$ cd projects/lab07
+$ git remote remove origin
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab07
+```
+
+```ShellSession
+$ wget https://github.com/hunter-packages/gate/archive/v0.9.0.tar.gz -O /tmp/gate.tar.gz
+$ tar -xf /tmp/gate.tar.gz
+$ mkdir -p cmake
+$ mv gate-0.9.0/cmake/HunterGate.cmake cmake
+$ rm -rf gate-0.9.0
+$ gsed -i '/cmake_minimum_required(VERSION 3.4)/a\
+
+include("cmake/HunterGate.cmake")
+huntergate(
+  URL "https://github.com/ruslo/hunter/archive/v0.23.83.tar.gz"
+  SHA1 "12dec078717539eb7b03e6d2a17797cba9be9ba9"
+)
+' CMakeLists.txt
+```
+
+```ShellSession
+$ git rm -rf third-party/gtest
+$ gsed -i '/set(PRINT_VERSION_STRING "v\${PRINT_VERSION}")/a\
+
+hunter_add_package(GTest)
+find_package(GTest CONFIG REQUIRED)
+' CMakeLists.txt
+$ gsed -i 's/add_subdirectory(third-party/gtest)//' CMakeLists.txt
+$ gsed -i 's/gtest_main/GTest::main/' CMakeLists.txt
+```
+
+```ShellSession
+$ cmake -H. -B_builds -DBUILD_TESTS=ON
+$ cmake --build _builds
+$ cmake --build _builds --target test
+$ ls -la $HOME/.hunter
+```
+
+```ShellSession
+$ git clone https://github.com/ruslo/hunter $HOME/projects/hunter
+$ export HUNTER_ROOT=$HOME/projects/hunter
+$ rm -rf _builds
+$ cmake -H. -B_builds -DBUILD_TESTS=ON
+$ cmake --build _builds
+$ cmake --build _builds --target test
+```
+
+```ShellSession
+$ cat $HUNTER_ROOT/cmake/configs/default.cmake | grep GTest
+$ cat $HUNTER_ROOT/cmake/projects/GTest/hunter.cmake
+$ mkdir cmake/Hunter
+$ cat > cmake/Hunter/config.cmake <<EOF
+hunter_config(GTest VERSION 1.7.0-hunter-9)
+>>>>>>> 71db6bd3612b7539f739247751f070837994e362
 EOF
 ```
 
 ```ShellSession
+<<<<<<< HEAD
 $ gsed -i 's/lab05/lab06/g' README.md
 ```
 
@@ -259,6 +337,10 @@ $ mkdir artifacts
 $ mv _build/*.tar.gz artifacts
 $ tree artifacts
 >>>>>>> d4c78adec6085237eb4567f46026f242de00588c
+=======
+$ git submodule add github.com/ruslo/polly tools/polly
+$ tools/polly/bin/polly.py --test
+>>>>>>> 71db6bd3612b7539f739247751f070837994e362
 ```
 
 ## Report
@@ -266,10 +348,14 @@ $ tree artifacts
 ```ShellSession
 $ popd
 <<<<<<< HEAD
+<<<<<<< HEAD
 $ export LAB_NUMBER=04
 =======
 $ export LAB_NUMBER=06
 >>>>>>> d4c78adec6085237eb4567f46026f242de00588c
+=======
+$ export LAB_NUMBER=07
+>>>>>>> 71db6bd3612b7539f739247751f070837994e362
 $ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}
 $ mkdir reports/lab${LAB_NUMBER}
 $ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
@@ -280,6 +366,7 @@ $ gistup -m "lab${LAB_NUMBER}"
 
 ## Homework
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Вы продолжаете проходить стажировку в "Formatter Inc." (см [подробности](https://github.com/tp-labs/lab06#Homework)).
 
@@ -347,6 +434,16 @@ build_script:
 - [RPM](https://cmake.org/cmake/help/latest/module/CPackRPM.html)
 - [NSIS](https://cmake.org/cmake/help/latest/module/CPackNSIS.html)
 >>>>>>> d4c78adec6085237eb4567f46026f242de00588c
+=======
+### Задание
+1. Создайте cвой hunter-пакет.
+
+## Links
+
+- [Create Hunter package](https://docs.hunter.sh/en/latest/creating-new/create.html)
+- [Custom Hunter config](https://github.com/ruslo/hunter/wiki/example.custom.config.id)
+- [Polly](https://github.com/ruslo/polly)
+>>>>>>> 71db6bd3612b7539f739247751f070837994e362
 
 ```
 Copyright (c) 2015-2019 The ISC Authors
