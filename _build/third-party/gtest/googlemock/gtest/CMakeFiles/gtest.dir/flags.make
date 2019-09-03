@@ -6,9 +6,5 @@ CXX_FLAGS =   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREA
 
 CXX_DEFINES = 
 
-<<<<<<< HEAD
-CXX_INCLUDES = -I/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googletest/include -I/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/third-party/gtest/googletest 
-=======
 CXX_INCLUDES = -I/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googletest/include -I/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/third-party/gtest/googletest 
->>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 

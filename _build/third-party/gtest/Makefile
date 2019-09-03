@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build
-=======
 CMAKE_SOURCE_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build
->>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/third-party/gtest/CMakeFiles/progress.marks
-	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build/CMakeFiles 0
-=======
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/third-party/gtest/CMakeFiles/progress.marks
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build/CMakeFiles 0
->>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/clean
-=======
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/clean
->>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : clean
 
 # The main clean target
@@ -171,29 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/preinstall
-=======
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/preinstall
->>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/preinstall
-=======
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(MAKE) -f CMakeFiles/Makefile2 third-party/gtest/preinstall
->>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : depend
 
 # Help Target
@@ -220,10 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/laba05/_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
 	cd /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/lab05/_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 0fb2c8fffc91dbfd5d73c57dfb16788454d605bd
 .PHONY : cmake_check_build_system
 
