@@ -1,6 +1,6 @@
 ## Laboratory work IV
 
-[![Build Status](https://travis-ci.org/LuciferTheFirstt/lab04.svg?branch=master)](https://travis-ci.org/LuciferTheFirstt/lab04)
+[![Build Status](https://travis-ci.org/LuciferTheFirstt/lab05.svg?branch=master)](https://travis-ci.org/LuciferTheFirstt/lab05)
 
 Данная лабораторная работа посвещена изучению систем непрерывной интеграции на примере сервиса **Travis CI**
 
@@ -11,7 +11,7 @@ $ open https://travis-ci.org
 ## Tasks
 
 - [ ] 1. Авторизоваться на сервисе **Travis CI** с использованием **GitHub** аккаунта
-- [ ] 2. Создать публичный репозиторий с названием **lab04** на сервисе **GitHub**
+- [ ] 2. Создать публичный репозиторий с названием **lab05** на сервисе **GitHub**
 - [ ] 3. Ознакомиться со ссылками учебного материала
 - [ ] 4. Включить интеграцию сервиса **Travis CI** с созданным репозиторием
 - [ ] 5. Получить токен для **Travis CLI** с правами **repo** и **user**
@@ -43,10 +43,10 @@ $ gem install travis
 ```
 
 ```ShellSession
-$ git clone https://github.com/${GITHUB_USERNAME}/lab03 projects/lab04
-$ cd projects/lab04
+$ git clone https://github.com/${GITHUB_USERNAME}/lab03 projects/lab05
+$ cd projects/lab05
 $ git remote remove origin
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab04
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab05
 ```
 
 ```ShellSession
@@ -124,11 +124,11 @@ $ gistup -m "lab${LAB_NUMBER}"
 
 ## Homework
 
-Вы продолжаете проходить стажировку в "Formatter Inc." (см [подробности](https://github.com/tp-labs/lab04#Homework)).
+Вы продолжаете проходить стажировку в "Formatter Inc." (см [подробности](https://github.com/tp-labs/lab05#Homework)).
 
 В прошлый раз ваше задание заключалось в настройке автоматизированной системы **CMake**.
 
-Сейчас вам требуется настроить систему непрерывной интеграции для библиотек и приложений, с которыми вы работали в [прошлый раз](https://github.com/tp-labs/lab04#Homework). Настройте сборочные процедуры на различных платформах:
+Сейчас вам требуется настроить систему непрерывной интеграции для библиотек и приложений, с которыми вы работали в [прошлый раз](https://github.com/tp-labs/lab05#Homework). Настройте сборочные процедуры на различных платформах:
 * используйте [TravisCI](https://travis-ci.com/) для сборки на операционной системе **Linux** с использованием компиляторов **gcc** и **clang**;
 * используйте [AppVeyor](https://www.appveyor.com/) для сборки на операционной системе **Windows**.
 
